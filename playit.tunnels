@@ -1,0 +1,104 @@
+{
+  "tcp_alloc": {
+    "allowed": 6,
+    "claimed": 0,
+    "desired": 0
+  },
+  "tunnels": [
+    {
+      "active": false,
+      "alloc": {
+        "data": {
+          "assigned_domain": "rule-mega.gl.at.ply.gg",
+          "assigned_srv": null,
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "9673901a-2d21-458f-94ce-ce1dee5e5d6a",
+          "ip_hostname": "16.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 24403,
+          "port_start": 24402,
+          "region": "global",
+          "static_ip4": "147.185.221.16",
+          "tunnel_ip": "2602:fbaf:0:1::10"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-06-07T22:48:21.682847Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "13ed330e-8517-4c1a-bb08-b5bc6ba43149",
+      "name": "unnamed",
+      "origin": {
+        "data": {
+          "agent_id": "5d6a5d9f-c2f0-4621-a194-66696d638895",
+          "agent_name": "ClogoUwuOnichan",
+          "local_ip": "127.0.0.1",
+          "local_port": 24402
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "udp",
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": null
+    },
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "town-successful.gl.at.ply.gg",
+          "assigned_srv": null,
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "a65203d1-963c-40c4-8b56-56263ce3b8c4",
+          "ip_hostname": "16.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 24226,
+          "port_start": 24225,
+          "region": "global",
+          "static_ip4": "147.185.221.16",
+          "tunnel_ip": "2602:fbaf:0:1::10"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-06-07T23:07:49.682251Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "dae5cd05-72d7-43ac-88d5-3768e049b6e7",
+      "name": "unnamed",
+      "origin": {
+        "data": {
+          "agent_id": "5d6a5d9f-c2f0-4621-a194-66696d638895",
+          "agent_name": "ClogoUwuOnichan",
+          "local_ip": "127.0.0.1",
+          "local_port": 24225
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "udp",
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": null
+    }
+  ],
+  "udp_alloc": {
+    "allowed": 6,
+    "claimed": 2,
+    "desired": 2
+  }
+}
